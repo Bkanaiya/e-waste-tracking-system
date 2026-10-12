@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build output
+dist/
+build/
+coverage/
+
+# env / secrets
+.env
+.env.local
+*.pem
+*.key
+*.crt
+
+# chaincode packages / artifacts
+*.tar.gz
+.lock
+
+# logs and local diagnostics
+.logs/
+*.log
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
